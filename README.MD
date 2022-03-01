@@ -21,7 +21,27 @@ Johnson e Vlissides conhecidos como “Gang of Four” (GoF).
 - Padrões Comportamentais: Chain of Responsibility, Iterator, Observer, Strategy, Template Method.
 - Padrões Estruturais: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy.
 
+<h1> Praticando com Java “Puro” </h1>
 
+![image](https://user-images.githubusercontent.com/32016610/156252814-ccb56d47-bd17-4374-b47a-c2ff7e99f743.png)
+
+<h3> Padrão Criacional -  Singleton </h3
+
+  - Permitir a criação de uma única instância de uma classe e fornecer um modo para recuperá-la.
+  
+  ![image](https://user-images.githubusercontent.com/32016610/156253024-227ba0c0-68e5-4c2c-9ef5-ed80219caccd.png)
+
+<h3> Padrão Comportamental - Strategy </h3>
+
+- Simplificar a variação de algoritmos para a resolução de um mesmo problema.
+
+![image](https://user-images.githubusercontent.com/32016610/156253158-7ad80316-7f35-466c-8205-e1d67c4fa3d5.png)
+
+<h3> Padrão Estrutural - Facade </h3>
+
+- Prover uma interface que reduza a complexidade nas integrações com subsistemas.
+
+![image](https://user-images.githubusercontent.com/32016610/156253306-ee898f0e-1894-4334-b4da-f48ace1a53b5.png)
 
 
 
