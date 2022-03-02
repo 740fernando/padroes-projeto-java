@@ -1,4 +1,4 @@
-package one.digitalinnovation.gof;
+package one.digitalinnovation.gof.singleton;
 
 /**
  * Singleton "apressado" - 	Logo no momento que a variavel estatica é definida, é atribuido a instancia
