@@ -1,5 +1,6 @@
 package one.digitalinnovation.gof.test;
 
+import one.digitalinnovation.gof.facade.Facade;
 import one.digitalinnovation.gof.singleton.SingletonEager;
 import one.digitalinnovation.gof.singleton.SingletonLazy;
 import one.digitalinnovation.gof.singleton.SingletonLazyHolder;
@@ -14,7 +15,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		// Testes relacionados ao Design Pattern Singleton - inicio
+		// Testes relacionados ao Design Pattern 'Singleton' - inicio
 		SingletonLazy lazy = SingletonLazy.getInstancia();
 		System.out.println(lazy);
 		lazy = SingletonLazy.getInstancia();
@@ -29,9 +30,9 @@ public class Test {
 		System.out.println(lazyHolder);
 		lazyHolder = SingletonLazyHolder.getInstancia();
 		System.out.println(lazyHolder);
-		// Testes relacionados ao Design Pattern Singleton - fim
-
-		// Testes relacionados ao Design Pattern Strategy - inicio
+		// Testes relacionados ao Design Pattern 'Singleton' - fim
+		System.out.println();
+		// Testes relacionados ao Design Pattern 'Strategy' - inicio
 		Comportamento defensivo = new ComportamentoDefensivo();
 		Comportamento normal = new ComportamentoNormal();
 		Comportamento agressivo = new ComportamentoAgressivo();
@@ -47,7 +48,13 @@ public class Test {
 		robo.setComportamento(agressivo);
 		robo.mover();
 		robo.mover();
-		// Testes relacionados ao Design Pattern Strategy - fim
+		// Testes relacionados ao Design Pattern 'Strategy' - fim
+		System.out.println();
+		// Testes relacionados ao Design Pattern 'Facade' - inicio
+		Facade facade = new Facade();
+		facade.migrarCliente("Fernando", "08080255"); // Abstrai a complexidade de integração
+		
+		// Testes relacionados ao Design Pattern 'Facade' - fim
 	}
 
 }
